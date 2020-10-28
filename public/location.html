@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/location.css">
     <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" type="text/css" href="css/main1.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -33,77 +34,92 @@
     </script>
 </head>
 <body>
-    <!--nav bar start-->
-    <header class="header-section header-sticky">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="cs-col-xs-2 col-sm-2 col-md-2 col-lg-2">
-					<div class="logo">
-						<a href="index.html">
-							<img src="img/logo/ddad_logo_a.png" alt="logo">
-						</a>
-					</div>
-				</div>
-				<div class="cs-col-xs-8 col-sm-8 col-md-8 col-lg-8">
-					<nav class="nav-menu">
-						<a href="index.html">
-							<img src="img/logo/LOGO.png" class="logo-center">
-						</a>
-					</nav>
-				</div>
-				<div class="cs-col-xs-1 col-sm-1 col-md-1 col-lg-1 login-btn-nav text-right">
-					<a href="http://admin.ddad-bd.com/login"><button style="color: #391544; margin-top: 20px; background-color: #ff893e;" type="button" class="btn btn-rounded">Login</button></a>
-				</div>
-				<div class="cs-col-xs-1 col-sm-1 col-md-1 col-lg-1">
-					<div class="dropdown">
-						<a style="color: #391544; margin-top: 15px;" class="nav-link" href="" id="navbardrop" data-toggle="dropdown">
-                                <i class="ham-burger fa fa-bars fa-2x"></i>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item d1" href="index.html">Home</a>
-							<a class="dropdown-item login-btn-menu d2" href="index.html">Login</a>
+        <header class="header-section header-sticky">
+        <nav class="navbar navbar-expand-xl navbar-dark bgx" style="justify-content: space-between;">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo/logo3.png" alt="DDAD" loading="lazy" height="80px" width="auto">
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse topbar" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto menu">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="location.html">LOCATIONS<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">BLOGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#section12">FREE TRIAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#section13">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://admin.ddad-bd.com/login">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        
+    </header>
+    <!--section 1 star-->
+	<div id="section11">
+		<div class="section11 container-fluid">
+			<div class="container-fluid">
+				<div class="section11-container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<div class="text11">
+								<h1>WE COVER SHOPS IN DENSELY<br> POPULATED AREAS<br>OF DHAKA</h1>
+							</div>
 						</div>
+					</div>
+					<div class="row">
+						<div class="card2 c2text">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<p>CURRENT SHOPS</p>
+									<h2><b>50</b></h2>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<p>CURRENT LOCATIONS</p>
+									<h2><b>7</b></h2>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<p>TOTAL AREA COVERAGE</p>
+									<h2><b>4 <sub style="font-size: medium;">SQKM</sub></b></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12" style="margin-top: 10%;">
+							<a href="location.html#section2"><button type="button"
+									class="s12btn btn btn-lg btn-sm btn-xs">See our locations</button></a>
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-    <!--nav bar end-->
-    <!--section 1 star-->
-    <div id="section11">
-        <div class="section11">
-            
-            <div class="cs-btn-container">
-                <div class="text11">
-                    <h1>WE COVER SHOPS IN DENSELY<br> POPULATED AREAS<br>OF DHAKA</h1>
-                </div>
-            
-            
-                <a href="#section2"><button type="button" class="s12btn btn btn-lg">See our locations</button></a><br>
-            </div>
-
-            <!-- <div class="down"></div> -->
-            <div class="card2 c2text">
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <p>CURRENT SHOPS</p>
-                        <h2><b>50</b></h2>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <p>CURRENT LOCATIONS</p>
-                        <h2><b>7</b></h2>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <p>TOTAL AREA COVERAGE</p>
-                        <h2><b>4 <sub style="font-size: medium;">SQKM</sub></b></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	</div>
     <!--section 1 end-->
     <!--section 2 start-->
-    <div id="section2">
-        <div class="section2">
+    <div id="section21">
+        <div class="section22">
             <div class="text2">
              <h2>Our Locations</h2>
              <p>We have selected the busiest shops in the most dense locations around Dhaka city. This enables our clients to<br> reach a
@@ -187,70 +203,70 @@
     </div>
     <!--section 2 end-->
     <!--footer section start-->
-    <div id="section12">
-        <div class="section12 container-fluid">
-            <div class="text12">
-                <h4>Are you interested to promote your<br> brand in these locations? Start a<br> campaign with us today!</h4>
-            </div>
-            <a href="index.html"><button type="button" class="fbtn btn btn-lg">Start a campaign now</button></a>
-            <div class="foot">
-                <div class="container-fluid">
-                    <div class="ftext">
-                        <div class="row content">
-                            <div class="col-md-1 col-lg-1">
+    <!--contact us-->
+    <div class="section13 container-fluid ">
+		<div class="container">
+			<div class="row" style="align-items: center; justify-content: center; text-align: center;">
+				<div class="contactUS">
+					<h1>GET IN TOUCH WITH US!</h1>
+					<h4>We’d love to hear from you. Here’s how you can reach us:</h4>
+				</div>
+			</div>
 
-                            </div>
-                            <div class="col-sm-12 col-md-2 col-lg-3 text-center">
-                                <span style="color: #fff;" class="fa fa-map-marker-alt"></span>
-                                <h5 class="add">House 262, Road 19,<br> DOHS Mohakhali</h5>
-                            </div>
-                            <div class="col-md-3 col-lg-1 text-center mobcontent">
-                                <span style="color: #fff;">|</span>
-                            </div>
-                            <div class="col-sm-12 col-md-2 col-lg-2 text-center">
-                                <span style="color: #fff;" class="fa fa-phone-alt"></span>
-                                <h5 class="phn">+8801819216017</h5>
-                            </div>
-                            <div class="col-md-2 col-lg-1 text-center mobcontent">
-                                <span style="color: #fff;">|</span>
-                            </div>
-                            <div class="col-sm-12 col-md-3 col-lg-2 text-center">
-                                <div class="social">
-                                    <a href="#"><i class="f fa fa-facebook"></i></a>
-                                    <a href="#"><i class="l fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="e far fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ftext2">
-                        <h5>2020 | DDAD. All rights reserved</h5>
-                    </div>
-            <!-- <div class="foot">
-                <div class="container-fluid">
-                    <div class="row">  
-                        <div class="col-sm-6 col-md-6 col-lg-6 text-center">
-                            <div class="ftext">
-                                <h4>Get in touch</h4>
-                                <h5>House 262, Road 19,<br> DOHS Mohakhali</h5>
-                                <h5>+8801819216017</h5>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="far fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <div class="ftext2">
-                                <h5>2020 | DDAD. All rights reserved</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
+			<link rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="box-part text-center">
+
+						<i class="fas fa-phone-square-alt fa-3x" aria-hidden="true"></i>
+
+						<div class="title">
+							<h4>+8801819216017</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="box-part text-center">
+
+						<i class="fas fa-envelope fa-3x" aria-hidden="true"></i>
+
+						<div class="title">
+							<h4>info.ddadbd@gmail.com</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="box-part text-center">
+
+						<i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+
+						<div class="title">
+							<h4>Dokane Dokane AD</h4>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			<Footer>
+				<div class="row" style="align-items: center; justify-content: center; text-align: center;">
+					<div class="ftext2">
+						<h5>2020 | DDAD. All rights reserved</h5>
+					</div>
+				</div>
+			</Footer>
+
+
+		</div>
+	</div>
     <!--footer section end-->
     <!--js-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -289,10 +305,10 @@
             $(window).scroll(function(){
                 if($(window).scrollTop() > 150){
                     // $(".header-section").css({"background-color":"white"});   
-                    $(".header-section").css({"background-color":"#3c0054"});   
+                    $(".header-section").css({"background-color":"rgb(31, 31, 31)"});   
                 }
                 else{
-                    $(".header-section").css({"background-color":"#52305a57"});
+                    $(".header-section").css({"background-color":"rgb(31, 31, 31)"});
                 }
             })
         })
